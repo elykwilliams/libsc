@@ -2,14 +2,6 @@ name: CI for CMake
 
 on:
   push:
-    paths:
-      - "**/CMakeLists.txt"
-      - "**.cmake"
-      - "**.cmake.in"
-      - "**.c"
-      - "**.h"
-      - "**.h.in"
-      - ".github/workflows/ci_cmake.yml"
   pull_request:
   release:
     types: [published]
