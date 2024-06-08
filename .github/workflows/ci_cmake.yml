@@ -140,7 +140,7 @@ jobs:
 
     strategy:
       matrix:
-        cc: [clang, gcc-13]
+        cc: [clang, gcc-14]
         mpi: [true]
         shared: [false]
         include:
