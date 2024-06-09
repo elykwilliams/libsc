@@ -2,6 +2,10 @@ runs:
   using: "composite"
 
   steps:
+  - name: Create Build Directory
+    shell: bash
+    run: mkdir build
+
   - name: CMake configure
     shell: bash
     run: >-
